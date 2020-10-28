@@ -10,14 +10,12 @@ rust_proc_macro {
         "libquote",
         "libsyn",
     ],
-    proc_macros: [
-        "libproc_macro_hack",
-    ],
+    proc_macros: ["libproc_macro_hack"],
 }
 
 // dependent_library ["feature_list"]
-//   proc-macro-hack-0.5.16
-//   proc-macro2-1.0.18 "default,proc-macro"
+//   proc-macro-hack-0.5.18
+//   proc-macro2-1.0.24 "default,proc-macro"
 //   quote-1.0.7 "default,proc-macro"
-//   syn-1.0.33 "clone-impls,default,derive,full,parsing,printing,proc-macro,quote"
+//   syn-1.0.48 "clone-impls,default,derive,full,parsing,printing,proc-macro,quote"
 //   unicode-xid-0.2.1 "default"
