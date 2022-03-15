@@ -41,14 +41,12 @@ rust_proc_macro {
     name: "libfutures_macro",
     crate_name: "futures_macro",
     cargo_env_compat: true,
-    cargo_pkg_version: "0.3.17",
+    cargo_pkg_version: "0.3.21",
     srcs: ["src/lib.rs"],
     edition: "2018",
-    cfgs: ["fn_like_proc_macro"],
     rustlibs: [
         "libproc_macro2",
         "libquote",
         "libsyn",
     ],
-    proc_macros: ["libproc_macro_hack"],
 }
