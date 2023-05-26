@@ -11,13 +11,13 @@ third_party {
   }
   url {
     type: ARCHIVE
-    value: "https://static.crates.io/crates/futures-macro/futures-macro-0.3.26.crate"
+    value: "https://static.crates.io/crates/futures-macro/futures-macro-0.3.28.crate"
   }
-  version: "0.3.26"
+  version: "0.3.28"
   license_type: NOTICE
   last_upgrade_date {
     year: 2023
-    month: 2
-    day: 15
+    month: 4
+    day: 3
   }
 }
